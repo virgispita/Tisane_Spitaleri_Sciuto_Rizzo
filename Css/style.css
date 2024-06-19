@@ -300,6 +300,18 @@ footer nav a:hover {
 }
 
 @media screen and (max-width:600px) {
+    header {
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+        font-size: 12px;
+    }
+    
+    header p {
+        font-weight: bold;
+        padding-left: 15px;
+    }
+
     .text {
         grid-template-columns: 1fr;
         gap: 0;
@@ -324,5 +336,10 @@ footer nav a:hover {
 
     .tipologia {
         margin: 20px 0; 
+    }
+
+    footer {
+        padding: 10px;
+        font-size: 12px;
     }
 }
