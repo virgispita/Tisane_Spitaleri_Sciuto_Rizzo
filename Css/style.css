@@ -351,6 +351,7 @@ footer nav a:hover {
     }
     
     .text {
+        font-size: 20px;
         grid-template-columns: 1fr;
         gap: 0;
     }
@@ -381,7 +382,7 @@ footer nav a:hover {
     }
     
     .scoperta {
-        font-size: 17px;
+        font-size: 13px;
         width: 110%;
     }
         
