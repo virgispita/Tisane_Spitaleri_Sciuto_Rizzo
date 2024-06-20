@@ -130,37 +130,25 @@ header nav a:hover {
     font-size: 30px;
 }
 
-.scoperta {
+.button-container {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    width: 100%;
-    font-size: 25px;
-    font-weight: normal;
+    justify-content: flex-end;
 }
 
-.scoperta ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.scoperta li {
-    margin: 70px auto;
-    margin-right: 135px;
-    padding: 0 16px;
-}
-
-.scoperta a {
-    text-decoration: none;
+.button-link {
+    display: inline-block;
+    padding: 18px 24px; 
+    font-size: 24px; 
     color: white;
-    padding: 28px;
-    background: #A7DB02; 
-    color: #fff; 
-    border-radius: 50px;
+    background-color: #A7DB02;
+    text-decoration: none;
+    border-radius: 30px; 
+    margin-right: 170px; 
+    margin-top: 70px;
 }
 
-.scoperta a:hover {
-    color: black;
+.button-link:hover {
+    background-color: #050505;
 }
 
 .tipologie {
@@ -181,6 +169,7 @@ header nav a:hover {
 .tipologia img {
     width: 200px; 
     height: auto; 
+    margin-top: 90px;
 }
 
 .tipologia ul {
@@ -195,10 +184,6 @@ header nav a:hover {
 .tipologia ul li a {
     color: white; 
     text-decoration: none; 
-}
-
-.tipologia ul li a:hover {
-    color: black; 
 }
 
 .fasi {
@@ -241,51 +226,60 @@ header nav a:hover {
     font-size: 24px;
 }
 
-.epoche h5 {
+.avviso {
+    border-radius: 20px;
+    background-color: #A7DB02;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.avviso h5 {
     margin-bottom: 1.4rem;
-    font-size: 24px;
+    font-size: 29px;
     color: red;
 }
 
-.epoche p {
+.avviso p {
     font-size: 21px;
 }
 
 .team {
     margin-top: 60px;
     display: flex;
-    justify-content: space-around; 
-    align-items: flex-start; 
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 70px; 
 }
 
 .team1 {
     display: flex;
-    flex-direction: column; 
-    align-items: center; 
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    margin: 10px; 
+    margin: 10px;
 }
 
 .team1 img {
-    width: 200px; 
-    height: auto; 
+    width: 200px;
+    height: auto;
 }
 
 .team1 ul {
-    list-style: none; 
+    list-style: none;
     font-weight: bold;
-    padding: 15px; 
-    margin-top: 2px; 
-    color: #000000; border-radius: 50px;
+    padding: 15px;
+    margin-top: 2px;
+    color: #000000;
+    border-radius: 50px;
 }
 
 .team1 ul li a {
-    color: white; 
-    text-decoration: none; 
+    color: white;
+    text-decoration: none;
 }
 
 .team1 ul li a:hover {
-    color: black; 
+    color: black;
 }
 
 footer {
@@ -338,138 +332,150 @@ footer nav a:hover {
 }
 
 @media screen and (max-width:600px) {
-header {
-    display: flex;
-    padding: 10px;
-    justify-content: space-between;
-    font-size: 12px;
-}
+    header {
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+        font-size: 15px;
+    }
+            
+    header p {
+        font-weight: bold;
+        padding-left: 15px;
+    }
         
-header p {
-    font-weight: bold;
-    padding-left: 15px;
-}
+    .text {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
     
-.text {
-    grid-template-columns: 1fr;
-    gap: 0;
-}
-
-.text h4 {
-    margin-bottom: 4rem;
-    font-size: 30px;
-}
-
-.hero {
-    grid-template-columns: 1fr;
-}
-
-.hero h1 {
-    font-size: 30px;
-}
+    .text h4 {
+        margin-bottom: 4rem;
+        font-size: 30px;
+    }
     
-.hero p {
-    font-size: 25px;
-}
-
-.tipologie {
-    flex-direction: column;
-    align-items: center; 
-}
-
-.tipologia {
-    margin: 20px 0; 
-}
-
-.scoperta {
-    font-size: 17px;
-    width: 100%;
-    align-items: center;
-}
-
-.scoperta ul {
-    padding: 0;
-}
-
-.scoperta li {
-    margin: 20px auto;
-    padding: 0 10px;
-    text-align: center;
-}
+    .hero {
+        grid-template-columns: 1fr;
+    }
     
-.scoperta a {
-    text-decoration: none;
-    color: white;
-    padding: 8px;
-    background: #A7DB02; 
-    color: #fff; 
-    border-radius: 20px;
-}
+    .hero h1 {
+        font-size: 30px;
+    }
+        
+    .hero p {
+        font-size: 25px;
+    }
     
-.scoperta a:hover {
-    color: white;
-}
-
-.fasi {
-    max-width: 1200px;
-    margin: 64px auto;
-    padding: 0 20px;
-}
+    .tipologie {
+        flex-direction: column;
+        align-items: center; 
+    }
     
-.fasi div {
-    grid-template-columns: 1fr ;
-    margin: 64px 40px;
-    gap: 16px;
-}
+    .tipologia {
+        margin: 20px 0; 
+    }
+    
+    .button-container {
+        display: flex;
+        justify-content: center; 
+        margin-top: 20px; 
+        text-align: center; 
+    }
+    
+    .button-link {
+        display: inline-block;
+        padding: 15px 30px; 
+        font-size: 20px; 
+        color: white;
+        background-color: #A7DB02;
+        text-decoration: none;
+        border-radius: 100px; 
+        transition: background-color 0.3s ease;
+        margin-right: 70px;
+    }
+    
+    .button-link:hover {
+        background-color: #050505;
+    }
 
-.epoche {
-    margin: 64px auto;
-    padding: 0 20px;
-}
+    .fasi {
+        max-width: 1200px;
+        margin: 64px auto;
+        padding: 0 20px;
+    }
+    
+    .fasi div {
+        grid-template-columns: 1fr;
+        margin: 64px 0; 
+        gap: 16px;
+    }
+    
+    .epoche {
+        margin: 64px auto;
+        padding: 0 20px;
+    }
+    
+    .epoche div {
+        grid-template-columns: 1fr;
+        margin: 64px 0; 
+        gap: 16px;
+    }
 
-.epoche div {
-
-    grid-template-columns: 1fr;
-    margin: 64px 40px;
-    gap: 16px;
-}
-
-.team1 {
-    display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    text-align: center;
-    margin: 10px; 
-}
-
-.team1 img {
-    width: 200px; 
-    height: auto; 
-}
-
-.team1 ul {
-    list-style: none; 
-    font-weight: bold;
-    padding: 15px; 
-    margin-top: 2px; 
-    color: #000000; border-radius: 50px;
-}
-
-.team1 ul li a {
-    color: white; 
-    text-decoration: none; 
-}
-
-.team1 ul li a:hover {
-    color: black; 
-}   
-   
-.content {
-    max-width: 100%;
-}  
- 
-footer {
-    padding: 10px;
-    font-size: 12px;
- }
-}
+    .avviso {
+        border-radius: 20px; 
+        background-color: #A7DB02;
+        padding-top: 20px;
+        padding: 15px; 
+        margin-bottom: 20px;
+    }
+    
+    .avviso h5 {
+        margin-top: 20px;
+        margin-bottom: 1.4rem;
+        font-size: 29px;
+        color: red;
+    }
+    
+    .avviso p {
+        font-size: 21px;
+    }
+    
+    .team1 {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center;
+        margin: 10px; 
+    }
+    
+    .team1 img {
+        width: 200px; 
+        height: auto; 
+    }
+    
+    .team1 ul {
+        list-style: none; 
+        font-weight: bold;
+        padding: 15px; 
+        margin-top: 2px; 
+        color: #000000; border-radius: 50px;
+    }
+    
+    .team1 ul li a {
+        color: white; 
+        text-decoration: none; 
+    }
+    
+    .team1 ul li a:hover {
+        color: black; 
+    }   
+       
+    .content {
+        max-width: 100%;
+    }  
+     
+    footer {
+        padding: 10px;
+        font-size: 15px;
+     }
+    }
