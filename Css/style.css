@@ -338,138 +338,138 @@ footer nav a:hover {
 }
 
 @media screen and (max-width:600px) {
-header {
-    display: flex;
-    padding: 10px;
-    justify-content: space-between;
-    font-size: 12px;
-}
+    header {
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+        font-size: 12px;
+    }
+                
+    header p {
+        font-weight: bold;
+        padding-left: 15px;
+    }
+            
+    .text {
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
         
-header p {
-    font-weight: bold;
-    padding-left: 15px;
+    .text h4 {
+        margin-bottom: 4rem;
+        font-size: 26px;
+    }
+        
+    .hero {
+        grid-template-columns: 1fr;
+    }
+        
+    .hero h1 {
+        font-size: 30px;
+    }
+            
+    .hero p {
+        font-size: 25px;
+    }
+        
+    .tipologie {
+        flex-direction: column;
+        align-items: center; 
+    }
+        
+    .tipologia {
+        margin: 15px 0; 
+    }
+        
+    .scoperta {
+        font-size: 20px;
+        width: 100%;
+        align-items: center;
+    }
+        
+    .scoperta ul {
+        padding: 0;
+    }
+        
+    .scoperta li {
+        margin: 20px auto;
+        padding: 0 10px;
+        text-align: center;
+    }
+            
+    .scoperta a {
+        text-decoration: none;
+        color: white;
+        padding: 8px;
+        background: #A7DB02; 
+        color: #fff; 
+        border-radius: 20px;
+    }
+            
+    .scoperta a:hover {
+        color: black;
+    }
+        
+    .fasi {
+        max-width: 1000px;
+        margin: 48px auto;
+        padding: 0 18px;
+    }
+            
+    .fasi div {
+        grid-template-columns: 1fr ;
+        margin: 48px 30px;
+        gap: 12px;
+    }
+        
+    .epoche {
+        margin: 48px auto;
+        padding: 0 18px;
+    }
+        
+    .epoche div {
+        grid-template-columns: 1fr;
+        margin: 48px 30px;
+        gap: 12px;
+    }
+        
+    .team1 {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center;
+        margin: 10px; 
+    }
+        
+    .team1 img {
+        width: 200px; 
+        height: auto; 
+    }
+        
+    .team1 ul {
+        list-style: none; 
+        font-weight: bold;
+        padding: 15px; 
+        margin-top: 2px; 
+        color: #000000; border-radius: 50px;
+    }
+        
+    .team1 ul li a {
+        color: white; 
+        text-decoration: none; 
+    }
+        
+    .team1 ul li a:hover {
+        color: black; 
+    }   
+           
+    .content {
+        max-width: 100%;
+    }  
+         
+    footer {
+        padding: 10px;
+        font-size: 12px;
+    }
 }
     
-.text {
-    grid-template-columns: 1fr;
-    gap: 0;
-}
-
-.text h4 {
-    margin-bottom: 4rem;
-    font-size: 30px;
-}
-
-.hero {
-    grid-template-columns: 1fr;
-}
-
-.hero h1 {
-    font-size: 30px;
-}
-    
-.hero p {
-    font-size: 25px;
-}
-
-.tipologie {
-    flex-direction: column;
-    align-items: center; 
-}
-
-.tipologia {
-    margin: 20px 0; 
-}
-
-.scoperta {
-    font-size: 17px;
-    width: 100%;
-    align-items: center;
-}
-
-.scoperta ul {
-    padding: 0;
-}
-
-.scoperta li {
-    margin: 20px auto;
-    padding: 0 10px;
-    text-align: center;
-}
-    
-.scoperta a {
-    text-decoration: none;
-    color: white;
-    padding: 8px;
-    background: #A7DB02; 
-    color: #fff; 
-    border-radius: 20px;
-}
-    
-.scoperta a:hover {
-    color: black;
-}
-
-.fasi {
-    max-width: 1200px;
-    margin: 64px auto;
-    padding: 0 20px;
-}
-    
-.fasi div {
-    grid-template-columns: 1fr ;
-    margin: 64px 40px;
-    gap: 16px;
-}
-
-.epoche {
-    margin: 64px auto;
-    padding: 0 20px;
-}
-
-.epoche div {
-
-    grid-template-columns: 1fr;
-    margin: 64px 40px;
-    gap: 16px;
-}
-
-.team1 {
-    display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    text-align: center;
-    margin: 10px; 
-}
-
-.team1 img {
-    width: 200px; 
-    height: auto; 
-}
-
-.team1 ul {
-    list-style: none; 
-    font-weight: bold;
-    padding: 15px; 
-    margin-top: 2px; 
-    color: #000000; border-radius: 50px;
-}
-
-.team1 ul li a {
-    color: white; 
-    text-decoration: none; 
-}
-
-.team1 ul li a:hover {
-    color: black; 
-}   
-   
-.content {
-    max-width: 100%;
-}  
- 
-footer {
-    padding: 10px;
-    font-size: 12px;
- }
-}
