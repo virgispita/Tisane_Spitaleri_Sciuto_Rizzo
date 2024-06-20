@@ -338,81 +338,88 @@ footer nav a:hover {
 }
 
 @media screen and (max-width:600px) {
-    header {
-        display: flex;
-        padding: 10px;
-        justify-content: space-between;
-        font-size: 12px;
-    }
+header {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    font-size: 12px;
+}
         
-    header p {
-        font-weight: bold;
-        padding-left: 15px;
-    }
+header p {
+    font-weight: bold;
+    padding-left: 15px;
+}
     
-    .text {
-        grid-template-columns: 1fr;
-        gap: 0;
-    }
+.text {
+    grid-template-columns: 1fr;
+    gap: 0;
+}
 
-    .hero {
-        grid-template-columns: 1fr;
-    }
+.hero {
+    grid-template-columns: 1fr;
+}
 
-    .hero h1 {
-        font-size: 30px;
-    }
+.hero h1 {
+    font-size: 30px;
+}
     
-    .hero p {
-        font-size: 25px;
-    }
+.hero p {
+    font-size: 25px;
+}
 
-    .tipologie {
-        flex-direction: column;
-        align-items: center; 
-    }
+.tipologie {
+    flex-direction: column;
+    align-items: center; 
+}
 
-    .tipologia {
-        margin: 20px 0; 
-    }
+.tipologia {
+    margin: 20px 0; 
+}
 
-    .scoperta {
-        font-size: 17px;
-        width: 110%;
-        
-       
-    }
+.scoperta {
+    font-size: 17px;
+    width: 100%;
+}
     
-    .scoperta a {
-        text-decoration: none;
-        color: white;
-        padding: 2px;
-        background: #A7DB02; 
-        color: #fff; 
-      
-    }
+.scoperta ul {
+    padding: 0;
+}
+
+.scoperta li {
+    margin: 20px auto;
+    margin-right: 0;
+    padding: 0 10px;
+}
     
-    .scoperta a:hover {
-        color: black;
-    }
+.scoperta a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    background: #A7DB02; 
+    color: #fff; 
+    border-radius: 20px;
+}
+    
+.scoperta a:hover {
+    color: black;
+}
 
 
-    .fasi {
-        max-width: 1200px;
-        margin: 64px auto;
-        padding: 0 20px;
-    }
-    
-    .fasi div {
 
-        grid-template-columns: 1fr ;
-        margin: 64px 40px;
-        gap: 16px;
-    }
+.fasi {
+    max-width: 1200px;
+    margin: 64px auto;
+    padding: 0 20px;
+}
+    
+.fasi div {
+    grid-template-columns: 1fr ;
+    margin: 64px 40px;
+    gap: 16px;
+}
     
 
-    .epoche {
-    
+.epoche {
     margin: 64px auto;
     padding: 0 20px;
 }
@@ -423,9 +430,6 @@ footer nav a:hover {
     margin: 64px 40px;
     gap: 16px;
 }
-
-
-
 
 .team1 {
     display: flex;
@@ -466,4 +470,3 @@ footer {
     font-size: 12px;
  }
 }
-    
