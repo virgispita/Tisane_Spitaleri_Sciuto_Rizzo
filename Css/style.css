@@ -355,6 +355,11 @@ header p {
     gap: 0;
 }
 
+.text h4 {
+    margin-bottom: 4rem;
+    font-size: 30px;
+}
+
 .hero {
     grid-template-columns: 1fr;
 }
