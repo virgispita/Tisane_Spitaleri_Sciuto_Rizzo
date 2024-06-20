@@ -226,6 +226,10 @@ header nav a:hover {
     font-size: 24px;
 }
 
+.epoche p {
+    font-size: 21px;
+}
+
 .avviso {
     border-radius: 20px;
     background-color: #A7DB02;
