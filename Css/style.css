@@ -119,6 +119,7 @@ header nav a:hover {
 .text p {
     font-size: 21px;
     font-weight: normal;
+    margin-bottom: 6rem;
 }
 
 .text div {
