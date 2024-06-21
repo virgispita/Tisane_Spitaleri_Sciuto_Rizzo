@@ -395,7 +395,7 @@ footer nav a:hover {
         margin: 20px 0; 
     }
     
-    .button-container {
+   .button-container {
         display: flex;
         justify-content: center; 
         margin-top: 20px; 
@@ -405,19 +405,19 @@ footer nav a:hover {
     .button-link {
         display: inline-block;
         padding: 15px 30px; 
-        font-size: 18px; 
+        font-size: 20px; 
         color: white;
         background-color: #A7DB02;
         text-decoration: none;
         border-radius: 100px; 
-        transition: background-color 0.3s;
-        margin-left: 5px;
+        transition: background-color 0.3s ease;
+        margin-right: 70px;
     }
     
     .button-link:hover {
         background-color: #050505;
     }
-
+    
     .fasi {
         max-width: 1200px;
         margin: 64px auto;
