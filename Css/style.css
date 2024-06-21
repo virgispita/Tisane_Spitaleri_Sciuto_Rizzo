@@ -341,7 +341,7 @@ footer nav a:hover {
         display: flex;
         padding: 16px;
         justify-content: space-between;
-        font-size: 15px;
+        font-size: 16px;
         align-items: center; 
     }
         
@@ -360,8 +360,9 @@ footer nav a:hover {
         list-style: none;
         font-weight: bold;
         display: flex;
-        gap: 20px;
+        gap: 12px;
     }
+
     .text {
         grid-template-columns: 1fr;
         gap: 0;
