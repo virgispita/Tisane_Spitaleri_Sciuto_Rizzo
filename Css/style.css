@@ -342,7 +342,7 @@ footer nav a:hover {
         display: flex;
         padding: 16px;
         justify-content: space-between;
-        font-size: 13px;
+        font-size: 14px;
         align-items: center; 
     }
         
@@ -405,13 +405,13 @@ footer nav a:hover {
     .button-link {
         display: inline-block;
         padding: 15px 30px; 
-        font-size: 20px; 
+        font-size: 18px; 
         color: white;
         background-color: #A7DB02;
         text-decoration: none;
         border-radius: 100px; 
-        transition: background-color 0.3s ease;
-        margin-right: 70px;
+        transition: background-color 0.3s;
+        margin-left: 5px;
     }
     
     .button-link:hover {
