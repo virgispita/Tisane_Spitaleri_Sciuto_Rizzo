@@ -106,7 +106,6 @@ header nav a:hover {
 
 .content p {
     line-height: 1.4;
-    margin-bottom: 1.6rem;
 }
 
 .text {
@@ -118,6 +117,7 @@ header nav a:hover {
 .text p {
     font-size: 21px;
     font-weight: normal;
+    margin-bottom: 3rem;
 }
 
 .text div {
@@ -125,7 +125,7 @@ header nav a:hover {
 }
 
 .text h4 {
-    margin-top: 6rem;
+    margin-top: 4rem;
     margin-bottom: 4rem;
     font-size: 30px;
 }
@@ -387,6 +387,7 @@ footer nav a:hover {
         justify-content: center;
         margin-top: 20px;
         text-align: center;
+        border-radius: 30px; 
     }
 
     .button-link {
