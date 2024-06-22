@@ -21,7 +21,6 @@ header {
     padding: 16px;
     justify-content: space-between;
     font-size: 18px;
-
 }
 
 header p {
@@ -336,181 +335,86 @@ footer nav a:hover {
     color: #708628;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
     header {
-        background-color: #E9E9E9;
-        display: flex;
-        padding: 16px;
-        justify-content: space-between;
         font-size: 14px;
-        align-items: center; 
+        align-items: center;
     }
-        
+
     header p {
-        font-weight: bold;
         padding-left: 15px;
     }
 
     header nav {
-        display: flex;
-        align-items: flex-end; 
+        align-items: flex-end;
     }
-    
+
     header nav ul {
-        padding-right: 20px;
-        list-style: none;
-        font-weight: bold;
-        display: flex;
         gap: 12px;
     }
 
     .text {
         grid-template-columns: 1fr;
-        gap: 0;
+        gap: 16px;
     }
-    
-    .text h4 {
-        margin-bottom: 4rem;
-        font-size: 30px;
+
+    .text div {
+        grid-column-start: 1;
     }
-    
+
     .hero {
         grid-template-columns: 1fr;
     }
-    
+
     .hero h1 {
         font-size: 30px;
     }
-        
+
     .hero p {
         font-size: 25px;
     }
-    
+
     .tipologie {
         flex-direction: column;
-        align-items: center; 
+        align-items: center;
     }
-    
+
     .tipologia {
-        margin: 20px 0; 
+        margin: 20px 0;
     }
-    
-   .button-container {
-        display: flex;
-        justify-content: center; 
-        margin-top: 20px; 
-        text-align: center; 
+
+    .button-container {
+        justify-content: center;
+        margin-top: 20px;
+        text-align: center;
     }
-    
+
     .button-link {
-        display: inline-block;
-        padding: 15px 30px; 
-        font-size: 20px; 
-        color: white;
-        background-color: #A7DB02;
-        text-decoration: none;
-        border-radius: 100px; 
-        transition: background-color 0.3s ease;
+        padding: 15px 30px;
+        font-size: 20px;
         margin-right: 70px;
     }
-    
-    .button-link:hover {
-        background-color: #050505;
-    }
-    
-    .fasi {
-        max-width: 1200px;
-        margin: 64px auto;
-        padding: 0 20px;
-    }
-    
-    .fasi div {
-        grid-template-columns: 1fr;
-        margin: 64px 0; 
-        gap: 16px;
-    }
-    
-    .epoche {
-        margin: 64px auto;
-        padding: 0 20px;
-    }
-    
+
+    .fasi div,
     .epoche div {
         grid-template-columns: 1fr;
-        margin: 64px 0; 
-        gap: 16px;
     }
 
-    .avviso {
-        border-radius: 20px; 
-        background-color: #A7DB02;
-        padding-top: 20px;
-        padding: 15px; 
-        margin-bottom: 20px;
-    }
-    
-    .avviso h5 {
-        margin-top: 20px;
-        margin-bottom: 1.4rem;
-        font-size: 29px;
-        color: red;
-    }
-    
-    .avviso p {
-        font-size: 21px;
-    }
-    
-    .team1 {
-        display: flex;
-        flex-direction: column; 
-        align-items: center; 
-        text-align: center;
-        margin: 10px; 
-    }
-    
-    .team1 img {
-        width: 200px; 
-        height: auto; 
-    }
-    
-    .team1 ul {
-        list-style: none; 
-        font-weight: bold;
-        padding: 15px; 
-        margin-top: 2px; 
-        color: #000000; border-radius: 50px;
-    }
-    
-    .team1 ul li a {
-        color: white; 
-        text-decoration: none; 
-    }
-    
-    .team1 ul li a:hover {
-        color: black; 
-    }   
-       
     .content {
         max-width: 100%;
-    }  
-     
+    }
+
     footer {
         padding: 10px;
-        font-size: 15px;
-     }
+    }
 
     footer nav {
-        display: flex;
-        flex-direction: column; 
-        align-items: flex-end; 
+        flex-direction: column;
+        align-items: flex-end;
     }
-    
+
     footer nav ul {
-        padding-right: 20px;
-        list-style: none;
-        font-weight: bold;
-        display: flex;
         flex-direction: column;
         gap: 20px;
     }
-    }
+}
